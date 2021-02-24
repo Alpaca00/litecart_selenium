@@ -9,3 +9,9 @@ class TestAddProduct:
         new_product.go()
         new_product.login_to_admin_page()
         new_product.add_new_product()
+
+    def test_check_product_added(self):
+        created_product = AddNewProducts(self.driver)
+        created_product.go()
+        created_product.login_to_admin_page()
+        assert created_product.check_added_product()

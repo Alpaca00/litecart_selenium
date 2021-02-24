@@ -10,7 +10,7 @@ def get_driver_chrome(request):
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     request.cls.driver = driver
     yield
-    #driver.quit()
+    driver.quit()
 
 
 @pytest.fixture(scope="function")

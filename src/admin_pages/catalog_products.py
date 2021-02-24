@@ -21,6 +21,11 @@ class AddNewProducts(AdminPageMenu):
     PRODUCT_HEAD_TITLE_INPUT = (By.XPATH, "//input[@name='head_title[en]']")
     PRODUCT_META_DESCRIPTION_INPUT = (By.XPATH, "//input[@name='meta_description[en]']")
     TAB_PRICES = (By.XPATH, "//ul[@class='index']/li/a[contains(text(),'Prices')]")
+    PRODUCT_PURCHASE_PRICE = (By.XPATH, "//input[@name='purchase_price']")
+    PRODUCT_PRICE_USD = (By.XPATH, "//input[@name='prices[USD]']")
+    SAVE_PRODUCT = (By.XPATH, "//button[@value='Save']")
+    NEW_PRODUCT = (By.XPATH, "//table[@class='dataTable']//a[contains(text(),'red-kingston mouse')]")
+
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -65,4 +70,17 @@ class AddNewProducts(AdminPageMenu):
         self.tab_prices()
 
     def tab_prices(self):
-        pass
+        self.driver.find_element(*self.TAB_PRICES).click()
+        self.driver.find_element(*self.PRODUCT_PURCHASE_PRICE).clear()
+        self.driver.find_element(*self.PRODUCT_PURCHASE_PRICE).send_keys("1.50")
+        self.driver.find_element(*self.PRODUCT_PRICE_USD).clear()
+        self.driver.find_element(*self.PRODUCT_PRICE_USD).send_keys("5.00")
+        self.driver.find_element(*self.SAVE_PRODUCT).click()
+        return self
+
+    def check_added_product(self):
+        self.driver.find_element(*self.CATALOG_BTN).click()
+        self.driver.find_element(*self.STUDIO_FOLDER).click()
+        self.driver.find_element(*self.NEW_PRODUCT).click()
+        product_title = "Edit Product: red-kingston mouse | My Store"
+        return product_title in self.driver.title
