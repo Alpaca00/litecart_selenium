@@ -2,7 +2,7 @@ import pytest
 from src.admin_pages.links_on_country_edit_page_open_in_new_window import CountriesEdit
 
 
-@pytest.mark.usefixtures("get_driver_chrome")
+@pytest.mark.usefixtures("get_driver_remote")
 class TestCheckLinks:
     def test_open_for_editing_and_check_links(self):
         country = CountriesEdit(self.driver)

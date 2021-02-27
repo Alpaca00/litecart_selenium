@@ -3,7 +3,6 @@ from src.pages.login_page import LoginPage
 
 
 @pytest.mark.usefixtures('get_driver_chrome')
-@pytest.mark.usefixtures('get_driver_firefox')
 class TestLogin:
     def test_login_to_liteсart_page_object(self):
         self.page_object = LoginPage(self.driver)

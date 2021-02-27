@@ -16,6 +16,9 @@ class LoginPage:
     def go(self):
         self.driver.get("http://localhost/litecart/en/")
 
+    def go_online(self):
+        self.driver.get("https://litecart.stqa.ru/en/")
+
     def login_to_litecart(self):
         self.driver.find_element(*self.LOGIN_EMAIL_INPUT).clear()
         self.driver.find_element(*self.LOGIN_EMAIL_INPUT).send_keys('johndoe@gmail.com')
