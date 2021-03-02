@@ -23,7 +23,7 @@ def get_driver_firefox(request):
 
 @pytest.fixture(scope="function")
 def get_driver_remote(request):
-    driver = webdriver.Remote("http://***.***.***.*:4444/wd/hub", desired_capabilities={"browserName": "internet explorer", "platform": "WINDOWS"})
+    driver = webdriver.Remote("http://***.***.***.*:4444/wd/hub", desired_capabilities={"browserName": "firefox"})
     request.cls.driver = driver
     yield
     driver.quit()
