@@ -2,7 +2,7 @@ import pytest
 from src.pages.product_listing_page_objects import ProductsStickers
 
 
-@pytest.mark.usefixtures('get_driver_chrome')
+@pytest.mark.usefixtures('get_driver_remote_browser_stack')
 class TestStickersProducts:
     def test_check_for_stickers(self):
         self.product_stickers = ProductsStickers(self.driver)

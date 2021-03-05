@@ -14,7 +14,7 @@ class LoginPage:
         self.driver = driver
 
     def go(self):
-        self.driver.get("http://localhost/litecart/en/")
+        self.driver.get("http://192.168.122.1/litecart/en/")
 
     def go_online(self):
         self.driver.get("https://litecart.stqa.ru/en/")
@@ -32,8 +32,5 @@ class LoginPage:
     @property
     def wait_for_text_to_appear(self):
         self.driver.execute_script("document.getElementById('notices-wrapper').style='display: true;'")
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
         return self.driver.find_element_by_xpath("//*[contains(text(), 'You are now logged in as John Doe.')]").text
-
-
-
