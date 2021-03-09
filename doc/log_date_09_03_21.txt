@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+"{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=3&product_id=15 737 The specified value ""2021-02-21 13:51"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294392471}","{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=3&product_id=15 739 The specified value ""2021-03-31 13:51"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294392472}"
+"{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=3&product_id=14 737 The specified value ""2021-02-21 13:51"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294393480}","{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=3&product_id=14 739 The specified value ""2021-03-31 13:51"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294393480}"
+
+"{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=11 737 The specified value ""2021-02-21 13:58"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294394604}","{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=11 739 The specified value ""2021-03-31 13:58"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294394604}"
+"{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=13 737 The specified value ""2021-02-21 13:58"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294395380}","{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=13 739 The specified value ""2021-04-21 13:58"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294395380}"
+
+"{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=12 737 The specified value ""2021-02-21 13:52"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294396975}","{'level': 'WARNING', 'message': 'http://localhost/litecart/admin/?app=catalog&doc=edit_product&category_id=2&product_id=12 739 The specified value ""2021-03-31 13:52"" does not conform to the required format.  The format is ""yyyy-MM-ddThh:mm"" followed by optional "":ss"" or "":ss.SSS"".', 'source': 'rendering', 'timestamp': 1615294396976}"
