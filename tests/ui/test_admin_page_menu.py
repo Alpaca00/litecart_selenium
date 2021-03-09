@@ -8,6 +8,7 @@ class TestAdminMenu:
         self.admin_login = AdminPageMenu(self.driver)
         self.admin_login.go()
         self.admin_login.login_to_admin_page()
+        self.admin_login.get_logs()
         assert self.admin_login.at_main_page()
 
     def test_clicks_all_menu_items_including_nested(self):

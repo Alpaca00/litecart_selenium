@@ -26,7 +26,6 @@ class AddNewProducts(AdminPageMenu):
     SAVE_PRODUCT = (By.XPATH, "//button[@value='Save']")
     NEW_PRODUCT = (By.XPATH, "//table[@class='dataTable']//a[contains(text(),'red-kingston mouse')]")
 
-
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver

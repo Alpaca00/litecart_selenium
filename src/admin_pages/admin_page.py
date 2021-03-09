@@ -1,4 +1,6 @@
 import allure
+from datetime import datetime
+import csv
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -27,6 +29,13 @@ class AdminPageMenu:
     def at_main_page(self):
         tls = "My Store"
         return tls in self.driver.title
+
+    def check_logs(self):
+        current_time = datetime.now().strftime("%d_%m_%y")
+        with open(f"/home/oleg/python/litecart_local/doc/log_date_{current_time}.txt", "a") as log_file:
+            writer = csv.writer(log_file)
+            log = self.driver.get_log("browser")
+            writer.writerow(log)
 
     def are_elements_present(self, *args):
         return len(*args) > 0

@@ -4,6 +4,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from doc2.browser_stack import BROWSERSTACK_URL, desired_cap
+from selenium.webdriver.common import proxy
 
 
 @pytest.fixture(scope="function")
@@ -44,3 +45,26 @@ def get_driver_remote_inside_containers(request):
     request.cls.driver = driver
     yield
     driver.quit()
+
+
+@pytest.fixture(scope="function")
+def get_driver_chrome_interception(request):
+    host_port = "http://127.0.0.1:8085"
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument(f"proxy-server={host_port}")
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=chrome_options)
+    request.cls.driver = driver
+    yield
+    driver.quit()
+
+
+@pytest.fixture(scope="function")
+def get_driver_firefox_interception(request):
+    PROXY = "localhost:8080"
+    webdriver.DesiredCapabilities.FIREFOX['proxy'] = {"httpProxy": PROXY, "ftpProxy": PROXY,
+    "sslProxy": PROXY, "proxyType": "MANUAL"}
+    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+    request.cls.driver = driver
+    yield
+    driver.quit()
+

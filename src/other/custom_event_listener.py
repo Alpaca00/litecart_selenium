@@ -67,9 +67,9 @@ class LoginPageEventListener:
         self.event_firing_driver.find_element_by_xpath("//input[@name='password']").send_keys("1qaz2wsx3edc")
         self.event_firing_driver.find_element_by_xpath("//button[@type='submit']").click()
 
-    def get_log(self):
+    def check_logs(self):
         current_time = datetime.now().strftime("%d_%m_%y")
-        with open(f"/home/oleg/python/litecart_local/doc/log_date_{current_time}.txt", "w") as log_file:
+        with open(f"/home/oleg/python/litecart_local/doc/log_date_{current_time}.txt", "r+") as log_file:
             writer = csv.writer(log_file)
             log = self.driver.get_log("browser")
             print(log)
@@ -94,7 +94,7 @@ def main():
     john = LoginPageEventListener(driver)
     john.go()
     john.login_to_an_existing_account()
-    john.get_log()
+    john.check_logs()
     john.get_screenshot()
     john.quit()
 
