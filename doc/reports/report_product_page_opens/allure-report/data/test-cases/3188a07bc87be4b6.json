@@ -1,0 +1,116 @@
+{
+  "uid" : "3188a07bc87be4b6",
+  "name" : "test_comparison_price",
+  "fullName" : "test_product_page_opens.TestProductPages#test_comparison_price",
+  "historyId" : "2820eb07594ed4b4e226f147f4706262",
+  "time" : {
+    "start" : 1615375223227,
+    "stop" : 1615375225023,
+    "duration" : 1796
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver_chrome",
+    "time" : {
+      "start" : 1615375221620,
+      "stop" : 1615375223225,
+      "duration" : 1605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go",
+      "time" : {
+        "start" : 1615375223228,
+        "stop" : 1615375224461,
+        "duration" : 1233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dcdf03977809edae",
+      "name" : "stdout",
+      "source" : "dcdf03977809edae.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver_chrome::0",
+    "time" : {
+      "start" : 1615375225024,
+      "stop" : 1615375225087,
+      "duration" : 63
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page_opens"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductPages"
+  }, {
+    "name" : "host",
+    "value" : "Alpaca"
+  }, {
+    "name" : "thread",
+    "value" : "74656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page_opens"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3188a07bc87be4b6.json",
+  "parameterValues" : [ ]
+}

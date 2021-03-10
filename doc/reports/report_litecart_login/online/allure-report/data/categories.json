@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(), 'You are now logged in as John Doe.')]\"}\n  (Session info: chrome=89.0.4389.82)",
+      "children" : [ {
+        "name" : "Wrong login",
+        "uid" : "dffae71d2c60f2cf",
+        "parentUid" : "ba982bb76ab2bd14d1f605b9e5f639a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615363945656,
+          "stop" : 1615363956025,
+          "duration" : 10369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba982bb76ab2bd14d1f605b9e5f639a5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

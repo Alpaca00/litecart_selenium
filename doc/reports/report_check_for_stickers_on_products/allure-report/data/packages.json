@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_check_for_stickers_on_products",
+    "children" : [ {
+      "name" : "availability of stickers",
+      "uid" : "6f41e0389f373197",
+      "parentUid" : "f1d7cd9356569ab12312a2b1fe9ae62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615373186432,
+        "stop" : 1615373190842,
+        "duration" : 4410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_check_sticker_on_each_product",
+      "uid" : "2d416b3291948a4f",
+      "parentUid" : "f1d7cd9356569ab12312a2b1fe9ae62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615373192572,
+        "stop" : 1615373196526,
+        "duration" : 3954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f1d7cd9356569ab12312a2b1fe9ae62f"
+  } ]
+}

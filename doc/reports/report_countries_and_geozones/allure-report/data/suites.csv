@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 09:17:13 EET 2021","Wed Mar 10 09:17:35 EET 2021","21329","","test_countries_and_geozones","TestCountriesGeoZones","","","test_check_countries_geo_zones_list",""
+"passed","Wed Mar 10 09:17:36 EET 2021","Wed Mar 10 09:17:48 EET 2021","11244","","test_countries_and_geozones","TestCountriesGeoZones","","","test_check_geo_zones",""
+"passed","Wed Mar 10 09:16:55 EET 2021","Wed Mar 10 09:17:12 EET 2021","16097","","test_countries_and_geozones","TestCountriesGeoZones","","","test_check_list_countries",""

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "898360a2c6480aae",
+  "name" : "If to been presence any log then check log-date file",
+  "time" : {
+    "start" : 1615359840451,
+    "stop" : 1615359856840,
+    "duration" : 16389
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

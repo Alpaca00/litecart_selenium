@@ -1,0 +1,131 @@
+{
+  "uid" : "2d416b3291948a4f",
+  "name" : "test_check_sticker_on_each_product",
+  "fullName" : "test_check_for_stickers_on_products.TestStickersProducts#test_check_sticker_on_each_product",
+  "historyId" : "ba1f26c5f9d4c01ce1525e34792ee47b",
+  "time" : {
+    "start" : 1615373192572,
+    "stop" : 1615373196526,
+    "duration" : 3954
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver_chrome",
+    "time" : {
+      "start" : 1615373190912,
+      "stop" : 1615373192570,
+      "duration" : 1658
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go",
+      "time" : {
+        "start" : 1615373192573,
+        "stop" : 1615373193741,
+        "duration" : 1168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "each product exactly has one stickers",
+      "time" : {
+        "start" : 1615373193741,
+        "stop" : 1615373196526,
+        "duration" : 2785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ee0345145c73b315",
+      "name" : "stdout",
+      "source" : "ee0345145c73b315.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver_chrome::0",
+    "time" : {
+      "start" : 1615373196527,
+      "stop" : 1615373196595,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_for_stickers_on_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStickersProducts"
+  }, {
+    "name" : "host",
+    "value" : "Alpaca"
+  }, {
+    "name" : "thread",
+    "value" : "65425-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_check_for_stickers_on_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d416b3291948a4f.json",
+  "parameterValues" : [ ]
+}

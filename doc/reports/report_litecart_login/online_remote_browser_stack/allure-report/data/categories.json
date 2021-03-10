@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(), 'You are now logged in as John Doe.')]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.06 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: '10-144-227-130', ip: '10.144.227.130', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2507}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}), userDataDir=C:\\Windows\\proxy\\scoped_dir11364_1973652964}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=88.0.4324.150, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 2be4a640a254de90478e46defd61bdf6\n*** Element info: {Using=xpath, value=//*[contains(text(), 'You are now logged in as John Doe.')]}\nScreenshot: available via screen\nStacktrace:\n    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)\n    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)\n    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)\n    at java.lang.reflect.Constructor.newInstance (None:-1)\n    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)\n    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)\n    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)\n    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)\n    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:500)\n    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)\n    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:355)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0 (None:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke (None:-1)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke (None:-1)\n    at java.lang.reflect.Method.invoke (None:-1)\n    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:103)\n    at com.sun.proxy.$Proxy1.findElement (None:-1)\n    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)\n    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)\n    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)\n    at java.util.concurrent.FutureTask.run (None:-1)\n    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)\n    at java.lang.Thread.run (None:-1)",
+      "children" : [ {
+        "name" : "test_wrong_login",
+        "uid" : "ce7a1c6c5b187370",
+        "parentUid" : "72d8e7528f0e79f6852dfa9d6658fc36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615368619058,
+          "stop" : 1615368630288,
+          "duration" : 11230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72d8e7528f0e79f6852dfa9d6658fc36"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

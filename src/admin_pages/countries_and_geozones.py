@@ -1,10 +1,6 @@
 import copy
 import allure
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common import alert
-from selenium.webdriver.support.ui import Select
 from src.admin_pages.admin_page import AdminPageMenu
 
 
@@ -26,6 +22,7 @@ class GeoZonesCountries(AdminPageMenu):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step
     def check_alphabetical_sequence_of_countries_in_list(self):
         self.driver.find_element(*self.LOCATOR_COUNTRIES_PAGE).click()
         group_countries_name = self.driver.find_elements(*self.COUNTRIES_NAME)
@@ -36,6 +33,7 @@ class GeoZonesCountries(AdminPageMenu):
         deep_copy_lst_sequence_names_of_countries.sort()
         return self.LST_SEQUENCE_NAMES_OF_COUNTRIES == deep_copy_lst_sequence_names_of_countries
 
+    @allure.step
     def check_alphabetical_sequence_of_countries_in_geo_zones_list(self):
         self.driver.find_element(*self.LOCATOR_COUNTRIES_PAGE).click()
         group_geo_zones = self.driver.find_elements(*self.COUNTRIES_GEO_ZONES_QUANTITY)
@@ -56,6 +54,7 @@ class GeoZonesCountries(AdminPageMenu):
             self.LST_SEQUENCE_NAMES_OF_GEO_ZONES.clear()
         return self
 
+    @allure.step
     def check_alphabetical_sequence_in_geo_zones_page(self):
         self.driver.find_element(*self.LOCATOR_GEO_ZONES_PAGE).click()
         group_edit_geo_zones = self.driver.find_elements(*self.GEO_ZONES_EDIT_BTN)

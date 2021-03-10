@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "16204-MainThread",
+      "children" : [ {
+        "name" : "test_check_countries_geo_zones_list",
+        "uid" : "e9653664322311fa",
+        "parentUid" : "9e0be8d446a2a69091de68879afb6d4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615360633720,
+          "stop" : 1615360655049,
+          "duration" : 21329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check_geo_zones",
+        "uid" : "2cbf05f20033619b",
+        "parentUid" : "9e0be8d446a2a69091de68879afb6d4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615360656849,
+          "stop" : 1615360668093,
+          "duration" : 11244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check_list_countries",
+        "uid" : "888703e51731e146",
+        "parentUid" : "9e0be8d446a2a69091de68879afb6d4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615360615929,
+          "stop" : 1615360632026,
+          "duration" : 16097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e0be8d446a2a69091de68879afb6d4e"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "test_check_for_stickers_on_products",
+      "children" : [ {
+        "name" : "TestStickersProducts",
+        "children" : [ {
+          "name" : "availability of stickers",
+          "uid" : "6f41e0389f373197",
+          "parentUid" : "c777a140e4a25ce7506171da37845824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615373186432,
+            "stop" : 1615373190842,
+            "duration" : 4410
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_check_sticker_on_each_product",
+          "uid" : "2d416b3291948a4f",
+          "parentUid" : "c777a140e4a25ce7506171da37845824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615373192572,
+            "stop" : 1615373196526,
+            "duration" : 3954
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c777a140e4a25ce7506171da37845824"
+      } ],
+      "uid" : "1c3669c35776465b59517b7076a45b33"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

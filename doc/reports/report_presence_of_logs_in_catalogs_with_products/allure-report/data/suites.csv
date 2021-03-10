@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 09:04:00 EET 2021","Wed Mar 10 09:04:16 EET 2021","16389","","test_presence_of_logs_in_catalogs_with_products","TestProductsOnCatalogs","","","If to been presence any log then check log-date file",""

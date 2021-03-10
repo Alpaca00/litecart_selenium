@@ -2,7 +2,7 @@ import pytest
 from src.pages.login_page import LoginPage
 
 
-@pytest.mark.usefixtures("get_driver_remote")
+@pytest.mark.usefixtures("get_driver_remote_kvm_win7")
 class TestLogin:
     def test_to_liteсart_online(self):
         self.remote_object = LoginPage(self.driver)

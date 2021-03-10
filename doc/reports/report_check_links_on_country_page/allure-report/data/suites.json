@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "test_check_links_on_country_page",
+      "children" : [ {
+        "name" : "TestCheckLinks",
+        "children" : [ {
+          "name" : "Check all links",
+          "uid" : "818526d7a407b546",
+          "parentUid" : "03b77d5bc87da83e3cea4681968aed8f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615362047070,
+            "stop" : 1615362069872,
+            "duration" : 22802
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "03b77d5bc87da83e3cea4681968aed8f"
+      } ],
+      "uid" : "5109c70c14cfd24d1f614565ed1089cb"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

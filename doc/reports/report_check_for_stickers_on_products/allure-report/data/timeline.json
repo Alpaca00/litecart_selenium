@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "65425-MainThread",
+      "children" : [ {
+        "name" : "test_check_sticker_on_each_product",
+        "uid" : "2d416b3291948a4f",
+        "parentUid" : "9bdfa846b31975d28f7ea1e1c59a8e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615373192572,
+          "stop" : 1615373196526,
+          "duration" : 3954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "availability of stickers",
+        "uid" : "6f41e0389f373197",
+        "parentUid" : "9bdfa846b31975d28f7ea1e1c59a8e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615373186432,
+          "stop" : 1615373190842,
+          "duration" : 4410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bdfa846b31975d28f7ea1e1c59a8e2e"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

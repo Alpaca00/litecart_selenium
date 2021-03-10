@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_litecart_login_v2_remote",
+    "children" : [ {
+      "name" : "test_login_to_liteсart_page_object",
+      "uid" : "2bad9f1dc2bd31ac",
+      "parentUid" : "29deb8aba3ec0fc2de0ca3eaadcc815f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615366666297,
+        "stop" : 1615366667263,
+        "duration" : 966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_correct",
+      "uid" : "465562f8949509d",
+      "parentUid" : "29deb8aba3ec0fc2de0ca3eaadcc815f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615366667958,
+        "stop" : 1615366670694,
+        "duration" : 2736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29deb8aba3ec0fc2de0ca3eaadcc815f"
+  } ]
+}

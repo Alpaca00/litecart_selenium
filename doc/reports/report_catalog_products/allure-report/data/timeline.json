@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "7753-MainThread",
+      "children" : [ {
+        "name" : "Create a new product",
+        "uid" : "44aed6854b2f9239",
+        "parentUid" : "f3e3b6dfa66dca098fea95c64d222bec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615358671541,
+          "stop" : 1615358680936,
+          "duration" : 9395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check_product_added",
+        "uid" : "938502a0b177d175",
+        "parentUid" : "f3e3b6dfa66dca098fea95c64d222bec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615358682709,
+          "stop" : 1615358687416,
+          "duration" : 4707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3e3b6dfa66dca098fea95c64d222bec"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

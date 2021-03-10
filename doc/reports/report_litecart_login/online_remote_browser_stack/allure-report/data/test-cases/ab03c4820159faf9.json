@@ -1,0 +1,85 @@
+{
+  "uid" : "ab03c4820159faf9",
+  "name" : "test_login_to_liteсart_page_object",
+  "fullName" : "test_litecart_login_v3_remote.TestLogin#test_login_to_liteсart_page_object",
+  "historyId" : "3ed3f05dfd159bea87554618ff806407",
+  "time" : {
+    "start" : 1615368606687,
+    "stop" : 1615368611001,
+    "duration" : 4314
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver_remote_browser_stack",
+    "time" : {
+      "start" : 1615368600527,
+      "stop" : 1615368606684,
+      "duration" : 6157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_driver_remote_browser_stack::0",
+    "time" : {
+      "start" : 1615368611003,
+      "stop" : 1615368613116,
+      "duration" : 2113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_litecart_login_v3_remote"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Alpaca"
+  }, {
+    "name" : "thread",
+    "value" : "48251-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_litecart_login_v3_remote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab03c4820159faf9.json",
+  "parameterValues" : [ ]
+}

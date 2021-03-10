@@ -24,7 +24,7 @@ class UserRegistration(LoginPage):
     CAPTCHA_INPUT = (By.XPATH, "//form[@name='customer_form']//input[@name='captcha']")
     CREATE_ACCOUNT_BTN = (By.XPATH, "//form[@name='customer_form']//button[@name='create_account']")
     ACCEPT_COOKIES_BTN = (By.XPATH, "//div[@id='cookies-acceptance-wrapper']//button[@name='accept_cookies']")
-    LOGOUT = (By.XPATH, "//div[@id='box-account']//a[@href='http://localhost/litecart/en/logout']")
+    LOGOUT = (By.XPATH, "//div[@id='box-account']//a[contains(@href,'logout')]")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -47,14 +47,14 @@ class UserRegistration(LoginPage):
         zone = Select(self.driver.find_element(*self.ZONE_SELECT))
         zone.select_by_visible_text("Washington")
         self.driver.find_element(*self.EMAIL_INPUT).clear()
-        self.driver.find_element(*self.EMAIL_INPUT).send_keys('jane00@gmail.com')
+        self.driver.find_element(*self.EMAIL_INPUT).send_keys('jane1@gmail.com')
         self.driver.find_element(*self.PHONE_INPUT).clear()
-        self.driver.find_element(*self.PHONE_INPUT).send_keys('+1911')
+        self.driver.find_element(*self.PHONE_INPUT).send_keys('+101101')
         self.driver.find_element(*self.SUBSCRIBE_RADIO_BTN).click()
         self.driver.find_element(*self.PASSWORD_INPUT).clear()
-        self.driver.find_element(*self.PASSWORD_INPUT).send_keys('qwerty')
+        self.driver.find_element(*self.PASSWORD_INPUT).send_keys('qwertyas')
         self.driver.find_element(*self.CONFIRM_PASSWORD_INPUT).clear()
-        self.driver.find_element(*self.CONFIRM_PASSWORD_INPUT).send_keys('qwerty')
+        self.driver.find_element(*self.CONFIRM_PASSWORD_INPUT).send_keys('qwertyas')
         self.driver.find_element(*self.ACCEPT_COOKIES_BTN).click()
         self.driver.find_element(*self.CAPTCHA_INPUT).clear()
         handling_captcha = "0000" # file: create_account.inc.php - I changed if captcha != post input!!!
@@ -62,15 +62,15 @@ class UserRegistration(LoginPage):
         self.driver.find_element(*self.CREATE_ACCOUNT_BTN).click()
         try:
             profile_logout_element = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "//div[@id='box-account']//a[@href='http://localhost/litecart/en/logout']")))
+                (By.XPATH, "//div[@id='box-account']//a[contains(@href,'logout')]")))
             if profile_logout_element.is_displayed():
                 profile_logout_element.click()
         except TimeoutException:
             return False
         self.driver.find_element(*self.LOGIN_EMAIL_INPUT).clear()
-        self.driver.find_element(*self.LOGIN_EMAIL_INPUT).send_keys("jane00@gmail.com")
+        self.driver.find_element(*self.LOGIN_EMAIL_INPUT).send_keys("jane1@gmail.com")
         self.driver.find_element(*self.LOGIN_PASSWORD_INPUT).clear()
-        self.driver.find_element(*self.LOGIN_PASSWORD_INPUT).send_keys('qwerty')
+        self.driver.find_element(*self.LOGIN_PASSWORD_INPUT).send_keys('qwertyas')
         self.driver.find_element(*self.LOGIN_SUBMIT_BTN).click()
         self.driver.find_element(*self.LOGOUT).click()
         return self

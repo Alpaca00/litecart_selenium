@@ -1,0 +1,146 @@
+{
+  "uid" : "2cbf05f20033619b",
+  "name" : "test_check_geo_zones",
+  "fullName" : "test_countries_and_geozones.TestCountriesGeoZones#test_check_geo_zones",
+  "historyId" : "78517b139e68b17c28e2743f73b3ef82",
+  "time" : {
+    "start" : 1615360656849,
+    "stop" : 1615360668093,
+    "duration" : 11244
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver_chrome",
+    "time" : {
+      "start" : 1615360655159,
+      "stop" : 1615360656847,
+      "duration" : 1688
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go",
+      "time" : {
+        "start" : 1615360656850,
+        "stop" : 1615360658397,
+        "duration" : 1547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "login_to_admin_page",
+      "time" : {
+        "start" : 1615360658397,
+        "stop" : 1615360659210,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check_alphabetical_sequence_in_geo_zones_page",
+      "time" : {
+        "start" : 1615360659210,
+        "stop" : 1615360668092,
+        "duration" : 8882
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1be9357e6439e788",
+      "name" : "stdout",
+      "source" : "1be9357e6439e788.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver_chrome::0",
+    "time" : {
+      "start" : 1615360668094,
+      "stop" : 1615360668161,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_countries_and_geozones"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCountriesGeoZones"
+  }, {
+    "name" : "host",
+    "value" : "Alpaca"
+  }, {
+    "name" : "thread",
+    "value" : "16204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_countries_and_geozones"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cbf05f20033619b.json",
+  "parameterValues" : [ ]
+}

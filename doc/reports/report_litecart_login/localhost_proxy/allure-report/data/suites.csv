@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 11:37:18 EET 2021","Wed Mar 10 11:37:24 EET 2021","6038","","test_litecart_login_v4_proxy","TestLogin","","","test_login_to_liteсart_page_object",""
+"passed","Wed Mar 10 11:37:31 EET 2021","Wed Mar 10 11:37:35 EET 2021","4173","","test_litecart_login_v4_proxy","TestLogin","","","test_login_correct",""

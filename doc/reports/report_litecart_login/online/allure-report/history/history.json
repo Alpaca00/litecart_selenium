@@ -1,0 +1,41 @@
+{
+  "a860337ea6f126e7d308bcb49c65e9cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dffae71d2c60f2cf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(), 'You are now logged in as John Doe.')]\"}\n  (Session info: chrome=89.0.4389.82)",
+      "time" : {
+        "start" : 1615363945656,
+        "stop" : 1615363956025,
+        "duration" : 10369
+      }
+    } ]
+  },
+  "828f3a7a935146b5370625ad4869b699" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bcefe9d52f5e22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615363942344,
+        "stop" : 1615363943971,
+        "duration" : 1627
+      }
+    } ]
+  }
+}

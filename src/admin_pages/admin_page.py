@@ -18,9 +18,11 @@ class AdminPageMenu:
     def __init__(self, driver):
         self.driver = driver
 
+    @allure.step
     def go(self):
         self.driver.get("http://admin:admin@localhost/litecart/admin/")
 
+    @allure.step
     def login_to_admin_page(self):
         self.driver.find_element(*self.PASSWORD_INPUT).clear()
         self.driver.find_element(*self.PASSWORD_INPUT).send_keys('admin')
@@ -40,6 +42,7 @@ class AdminPageMenu:
     def are_elements_present(self, *args):
         return len(*args) > 0
 
+    @allure.step
     def clicks_all_menu_items(self):
         group_catalog = self.driver.find_elements(*self.GROUP_BOX_BTN)
         if self.are_elements_present(group_catalog):

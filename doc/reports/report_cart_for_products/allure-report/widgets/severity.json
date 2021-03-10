@@ -1,0 +1,11 @@
+[ {
+  "uid" : "eb87da71652c8f83",
+  "name" : "test_add_a_few_products_to_cart_and_all_delete",
+  "time" : {
+    "start" : 1615362653893,
+    "stop" : 1615362662906,
+    "duration" : 9013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

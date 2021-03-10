@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "test_presence_of_logs_in_catalogs_with_products",
+      "children" : [ {
+        "name" : "TestProductsOnCatalogs",
+        "children" : [ {
+          "name" : "If to been presence any log then check log-date file",
+          "uid" : "898360a2c6480aae",
+          "parentUid" : "546133df8429439bc9a40752da0efd17",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615359840451,
+            "stop" : 1615359856840,
+            "duration" : 16389
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "546133df8429439bc9a40752da0efd17"
+      } ],
+      "uid" : "bdeca05f5d3cabb052fdf468776e4800"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

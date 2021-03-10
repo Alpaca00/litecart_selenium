@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "26099-MainThread",
+      "children" : [ {
+        "name" : "test_add_a_few_products_to_cart_and_all_delete",
+        "uid" : "eb87da71652c8f83",
+        "parentUid" : "3be7cbe143d55d9fc2f632820eb8a9a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615362653893,
+          "stop" : 1615362662906,
+          "duration" : 9013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3be7cbe143d55d9fc2f632820eb8a9a8"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

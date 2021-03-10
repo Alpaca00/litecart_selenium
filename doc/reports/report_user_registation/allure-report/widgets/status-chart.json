@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6714f9d46814ff15",
+  "name" : "User Registration",
+  "time" : {
+    "start" : 1615376893545,
+    "stop" : 1615376901183,
+    "duration" : 7638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

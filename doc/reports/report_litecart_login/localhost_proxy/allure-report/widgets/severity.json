@@ -1,0 +1,21 @@
+[ {
+  "uid" : "fd6c38b96e7823b6",
+  "name" : "test_login_correct",
+  "time" : {
+    "start" : 1615369051642,
+    "stop" : 1615369055815,
+    "duration" : 4173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "602b63f551a7c495",
+  "name" : "test_login_to_liteсart_page_object",
+  "time" : {
+    "start" : 1615369038515,
+    "stop" : 1615369044553,
+    "duration" : 6038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

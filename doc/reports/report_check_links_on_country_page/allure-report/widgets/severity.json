@@ -1,0 +1,11 @@
+[ {
+  "uid" : "818526d7a407b546",
+  "name" : "Check all links",
+  "time" : {
+    "start" : 1615362047070,
+    "stop" : 1615362069872,
+    "duration" : 22802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

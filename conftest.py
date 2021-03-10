@@ -4,7 +4,6 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from doc2.browser_stack import BROWSERSTACK_URL, desired_cap
-from selenium.webdriver.common import proxy
 
 
 @pytest.fixture(scope="function")
@@ -67,4 +66,17 @@ def get_driver_firefox_interception(request):
     request.cls.driver = driver
     yield
     driver.quit()
+
+
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+def pytest_runtest_makereport(item):
+    outcome = yield
+    rep = outcome.get_result()
+    marker = item.get_closest_marker("ui")
+    if marker:
+        if rep.when == 'call' and rep.failed:
+            try:
+                allure.attach(item.instance.driver.get_screenshot_as_png(), name=item.name, attachment_type=allure.attachment_type.PNG)  # dir.allure(param)
+            except Exception as err:
+                print(err)
 

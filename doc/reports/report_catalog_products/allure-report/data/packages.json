@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_catalog_products",
+    "children" : [ {
+      "name" : "Create a new product",
+      "uid" : "44aed6854b2f9239",
+      "parentUid" : "5c652b869ca60221bc7039da5cf68d5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615358671541,
+        "stop" : 1615358680936,
+        "duration" : 9395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_check_product_added",
+      "uid" : "938502a0b177d175",
+      "parentUid" : "5c652b869ca60221bc7039da5cf68d5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615358682709,
+        "stop" : 1615358687416,
+        "duration" : 4707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5c652b869ca60221bc7039da5cf68d5e"
+  } ]
+}

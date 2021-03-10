@@ -1,0 +1,21 @@
+[ {
+  "uid" : "44aed6854b2f9239",
+  "name" : "Create a new product",
+  "time" : {
+    "start" : 1615358671541,
+    "stop" : 1615358680936,
+    "duration" : 9395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "938502a0b177d175",
+  "name" : "test_check_product_added",
+  "time" : {
+    "start" : 1615358682709,
+    "stop" : 1615358687416,
+    "duration" : 4707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

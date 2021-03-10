@@ -1,4 +1,5 @@
 import pytest
+import allure
 from src.pages.login_page import LoginPage
 
 

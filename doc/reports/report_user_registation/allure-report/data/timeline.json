@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "84781-MainThread",
+      "children" : [ {
+        "name" : "User Registration",
+        "uid" : "6714f9d46814ff15",
+        "parentUid" : "956f562f4b51a769e90ffd985d64b5da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615376893545,
+          "stop" : 1615376901183,
+          "duration" : 7638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "956f562f4b51a769e90ffd985d64b5da"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

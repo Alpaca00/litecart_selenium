@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 13:48:13 EET 2021","Wed Mar 10 13:48:21 EET 2021","7638","","test_user_registration","TestUserRegistration","","","User Registration",""

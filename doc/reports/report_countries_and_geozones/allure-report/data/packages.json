@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_countries_and_geozones",
+    "children" : [ {
+      "name" : "test_check_list_countries",
+      "uid" : "888703e51731e146",
+      "parentUid" : "021d4337cf80e5d7ba96e71575f5dea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360615929,
+        "stop" : 1615360632026,
+        "duration" : 16097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_check_countries_geo_zones_list",
+      "uid" : "e9653664322311fa",
+      "parentUid" : "021d4337cf80e5d7ba96e71575f5dea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360633720,
+        "stop" : 1615360655049,
+        "duration" : 21329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_check_geo_zones",
+      "uid" : "2cbf05f20033619b",
+      "parentUid" : "021d4337cf80e5d7ba96e71575f5dea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360656849,
+        "stop" : 1615360668093,
+        "duration" : 11244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "021d4337cf80e5d7ba96e71575f5dea9"
+  } ]
+}

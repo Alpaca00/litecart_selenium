@@ -1,0 +1,31 @@
+[ {
+  "uid" : "e9653664322311fa",
+  "name" : "test_check_countries_geo_zones_list",
+  "time" : {
+    "start" : 1615360633720,
+    "stop" : 1615360655049,
+    "duration" : 21329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cbf05f20033619b",
+  "name" : "test_check_geo_zones",
+  "time" : {
+    "start" : 1615360656849,
+    "stop" : 1615360668093,
+    "duration" : 11244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "888703e51731e146",
+  "name" : "test_check_list_countries",
+  "time" : {
+    "start" : 1615360615929,
+    "stop" : 1615360632026,
+    "duration" : 16097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

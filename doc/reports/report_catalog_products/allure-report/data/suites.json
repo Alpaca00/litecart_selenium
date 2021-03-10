@@ -1,0 +1,42 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "test_catalog_products",
+      "children" : [ {
+        "name" : "TestAddProduct",
+        "children" : [ {
+          "name" : "Create a new product",
+          "uid" : "44aed6854b2f9239",
+          "parentUid" : "ab6f5df172829dc1223b1e66418121dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615358671541,
+            "stop" : 1615358680936,
+            "duration" : 9395
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_check_product_added",
+          "uid" : "938502a0b177d175",
+          "parentUid" : "ab6f5df172829dc1223b1e66418121dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615358682709,
+            "stop" : 1615358687416,
+            "duration" : 4707
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ab6f5df172829dc1223b1e66418121dd"
+      } ],
+      "uid" : "0f05d3b9eefc5647598ca6c4f11ef1b0"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

@@ -30,12 +30,14 @@ class AddNewProducts(AdminPageMenu):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step
     def add_new_product(self):
         self.driver.find_element(*self.CATALOG_BTN).click()
         self.driver.find_element(*self.STUDIO_FOLDER).click()
         self.driver.find_element(*self.ADD_NEW_PRODUCT_BTN).click()
         self.tab_general()
 
+    @allure.step
     def tab_general(self):
         enable_radio_btn = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, self.ENABLE_RADIO_BTN)))
         if enable_radio_btn.is_displayed():
@@ -50,6 +52,7 @@ class AddNewProducts(AdminPageMenu):
         self.driver.find_element(*self.ADD_IMAGE).send_keys(dir_image)
         self.tab_information()
 
+    @allure.step
     def tab_information(self):
         self.driver.find_element(*self.TAB_INFORMATION).click()
         self.driver.find_element(*self.PRODUCT_KEYWORDS_INPUT).clear()
@@ -68,6 +71,7 @@ class AddNewProducts(AdminPageMenu):
         self.driver.find_element(*self.PRODUCT_META_DESCRIPTION_INPUT).send_keys("Mute quite clicks")
         self.tab_prices()
 
+    @allure.step
     def tab_prices(self):
         self.driver.find_element(*self.TAB_PRICES).click()
         self.driver.find_element(*self.PRODUCT_PURCHASE_PRICE).clear()

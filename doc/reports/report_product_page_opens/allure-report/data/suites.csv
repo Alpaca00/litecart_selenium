@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 13:20:13 EET 2021","Wed Mar 10 13:20:18 EET 2021","4784","","test_product_page_opens","TestProductPages","","","test_correct_product_opens",""
+"passed","Wed Mar 10 13:20:23 EET 2021","Wed Mar 10 13:20:25 EET 2021","1796","","test_product_page_opens","TestProductPages","","","test_comparison_price",""
+"passed","Wed Mar 10 13:20:26 EET 2021","Wed Mar 10 13:20:28 EET 2021","1769","","test_product_page_opens","TestProductPages","","","test_comparison_css_property_of_price",""
+"passed","Wed Mar 10 13:20:19 EET 2021","Wed Mar 10 13:20:21 EET 2021","1667","","test_product_page_opens","TestProductPages","","","test_comparison_names",""

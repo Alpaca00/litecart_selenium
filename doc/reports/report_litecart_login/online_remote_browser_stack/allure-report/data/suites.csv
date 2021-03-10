@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Mar 10 11:30:19 EET 2021","Wed Mar 10 11:30:30 EET 2021","11230","","test_litecart_login_v3_remote","TestLogin","","","test_wrong_login",""
+"passed","Wed Mar 10 11:30:06 EET 2021","Wed Mar 10 11:30:11 EET 2021","4314","","test_litecart_login_v3_remote","TestLogin","","","test_login_to_liteсart_page_object",""

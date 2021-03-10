@@ -1,13 +1,15 @@
 import allure
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 from src.pages.login_page import LoginPage
+import time
 
 
 class ProductPage(LoginPage):
-    CAMPAIGNS_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'http://localhost/litecart/en/studio-c-2/sony-monitor-p-12')]")
+    CAMPAIGNS_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'sony-monitor-p-12')]")
     MAIN_PAGE_PRODUCT_NAME = (By.XPATH, "//div[@id='box-campaigns']//a[@title='Sony Monitor']/div[contains(text(),'Sony Monitor')]")
-    MAIN_PAGE_OLD_PRICE_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'http://localhost/litecart/en/studio-c-2/sony-monitor-p-12')]//s[@class='regular-price']")
-    MAIN_PAGE_NEW_PRICE_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'http://localhost/litecart/en/studio-c-2/sony-monitor-p-12')]//strong[@class='campaign-price']")
+    MAIN_PAGE_OLD_PRICE_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'sony-monitor-p-12')]//s[@class='regular-price']")
+    MAIN_PAGE_NEW_PRICE_FIRST_PRODUCT = (By.XPATH, "//div[@id='box-campaigns']//a[contains(@href, 'sony-monitor-p-12')]//strong[@class='campaign-price']")
     PRODUCT_ON_PAGE = (By.XPATH, "//div[@id='box-product']//h1[contains(text(), 'Sony Monitor')]")
     PRODUCT_OLD_PRICE_ON_PAGE = (By.XPATH, "//div[@id='box-product']//s[@class ='regular-price']")
     PRODUCT_NEW_PRICE_ON_PAGE = (By.XPATH, "//div[@id='box-product']//strong[@class ='campaign-price']")
@@ -16,9 +18,11 @@ class ProductPage(LoginPage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        self.wait = WebDriverWait(driver, 10)
 
     def click_and_check_correct_product_page_opens(self):
         self.driver.find_element(*self.CAMPAIGNS_FIRST_PRODUCT).click()
+        time.sleep(3)
         title = self.driver.title
         must_be_title = "Sony Monitor | Studio | My Store"
         return title == must_be_title

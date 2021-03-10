@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alpaca",
+    "children" : [ {
+      "name" : "38364-MainThread",
+      "children" : [ {
+        "name" : "test_login_to_liteсart_page",
+        "uid" : "832bbddfa440c8f9",
+        "parentUid" : "01f73145a5d9d17405f043fcd4dfe333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615366043175,
+          "stop" : 1615366044495,
+          "duration" : 1320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_correct",
+        "uid" : "5565649465ba6e52",
+        "parentUid" : "01f73145a5d9d17405f043fcd4dfe333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615366046188,
+          "stop" : 1615366048317,
+          "duration" : 2129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01f73145a5d9d17405f043fcd4dfe333"
+    } ],
+    "uid" : "b766354e37e6f29872cfe354d17af9b7"
+  } ]
+}

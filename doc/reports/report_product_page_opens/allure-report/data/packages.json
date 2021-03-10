@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_product_page_opens",
+    "children" : [ {
+      "name" : "test_correct_product_opens",
+      "uid" : "6275af124ef71b24",
+      "parentUid" : "06cd64d8eb9009ad82ce51b5579dc49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615375213426,
+        "stop" : 1615375218210,
+        "duration" : 4784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_comparison_names",
+      "uid" : "fcc8409d707f7edb",
+      "parentUid" : "06cd64d8eb9009ad82ce51b5579dc49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615375219885,
+        "stop" : 1615375221552,
+        "duration" : 1667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_comparison_price",
+      "uid" : "3188a07bc87be4b6",
+      "parentUid" : "06cd64d8eb9009ad82ce51b5579dc49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615375223227,
+        "stop" : 1615375225023,
+        "duration" : 1796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_comparison_css_property_of_price",
+      "uid" : "6644382d8157a21a",
+      "parentUid" : "06cd64d8eb9009ad82ce51b5579dc49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615375226793,
+        "stop" : 1615375228562,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "06cd64d8eb9009ad82ce51b5579dc49b"
+  } ]
+}

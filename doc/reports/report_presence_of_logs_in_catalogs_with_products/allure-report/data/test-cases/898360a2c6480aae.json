@@ -1,0 +1,205 @@
+{
+  "uid" : "898360a2c6480aae",
+  "name" : "If to been presence any log then check log-date file",
+  "fullName" : "test_presence_of_logs_in_catalogs_with_products.TestProductsOnCatalogs#test_presence_of_logs",
+  "historyId" : "7fdd95b10dbb9166fb09e512cea6db55",
+  "time" : {
+    "start" : 1615359840451,
+    "stop" : 1615359856840,
+    "duration" : 16389
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver_chrome",
+    "time" : {
+      "start" : 1615359838571,
+      "stop" : 1615359840447,
+      "duration" : 1876
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go",
+      "time" : {
+        "start" : 1615359840451,
+        "stop" : 1615359841739,
+        "duration" : 1288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "login_to_admin_page",
+      "time" : {
+        "start" : 1615359841739,
+        "stop" : 1615359842712,
+        "duration" : 973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "open_catalog_of_products",
+      "time" : {
+        "start" : 1615359842713,
+        "stop" : 1615359843053,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "computer_engineering_open_catalog",
+      "time" : {
+        "start" : 1615359843053,
+        "stop" : 1615359856839,
+        "duration" : 13786
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "sales_open_catalog",
+        "time" : {
+          "start" : 1615359851369,
+          "stop" : 1615359856839,
+          "duration" : 5470
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "studio_open_catalog",
+          "time" : {
+            "start" : 1615359853328,
+            "stop" : 1615359856839,
+            "duration" : 3511
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "time" : {
+        "start" : 1615359856839,
+        "stop" : 1615359856839,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf8fe58b7b42251",
+      "name" : "stdout",
+      "source" : "bf8fe58b7b42251.txt",
+      "type" : "text/plain",
+      "size" : 3807
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver_chrome::0",
+    "time" : {
+      "start" : 1615359856841,
+      "stop" : 1615359856908,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_presence_of_logs_in_catalogs_with_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductsOnCatalogs"
+  }, {
+    "name" : "host",
+    "value" : "Alpaca"
+  }, {
+    "name" : "thread",
+    "value" : "12584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_presence_of_logs_in_catalogs_with_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "898360a2c6480aae.json",
+  "parameterValues" : [ ]
+}

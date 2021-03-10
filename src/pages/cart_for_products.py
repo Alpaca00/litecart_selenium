@@ -17,9 +17,11 @@ class CartProducts:
     def __init__(self, driver):
         self.driver = driver
 
+    @allure.step
     def go(self):
         self.driver.get("http://localhost/litecart/en/")
 
+    @allure.step
     def click_product_and_add_a_few_to_cart(self):
         for item in range(1, 4):
             self.driver.find_element(*self.PRODUCT_LAPTOP).click()
@@ -27,6 +29,7 @@ class CartProducts:
             WebDriverWait(self.driver, 10).until(EC.text_to_be_present_in_element((By.XPATH, self.PRODUCTS_COUNTER_OF_CART), str(item)))
             self.driver.back()
 
+    @allure.step
     def open_cart(self):
         self.driver.find_element(*self.CHECKOUT_BTN).click()
 

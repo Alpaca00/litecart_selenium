@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 10 09:50:53 EET 2021","Wed Mar 10 09:51:02 EET 2021","9013","","test_cart_for_products","TestCartProduct","","","test_add_a_few_products_to_cart_and_all_delete",""

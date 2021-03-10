@@ -1,9 +1,11 @@
 import pytest
+import allure
 from src.admin_pages.catalog_products import AddNewProducts
 
 
 @pytest.mark.usefixtures("get_driver_chrome")
 class TestAddProduct:
+    @allure.title("Create a new product")
     def test_add_product(self):
         new_product = AddNewProducts(self.driver)
         new_product.go()
@@ -14,4 +16,5 @@ class TestAddProduct:
         created_product = AddNewProducts(self.driver)
         created_product.go()
         created_product.login_to_admin_page()
-        assert created_product.check_added_product()
+        with allure.step("Check added product in catalog"):
+            assert created_product.check_added_product()

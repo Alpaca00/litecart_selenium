@@ -1,0 +1,42 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "test_litecart_login_v2_remote",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_to_liteсart_page_object",
+          "uid" : "2bad9f1dc2bd31ac",
+          "parentUid" : "e7f80f38ebc32d8ac59519d67b9c8f16",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615366666297,
+            "stop" : 1615366667263,
+            "duration" : 966
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login_correct",
+          "uid" : "465562f8949509d",
+          "parentUid" : "e7f80f38ebc32d8ac59519d67b9c8f16",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615366667958,
+            "stop" : 1615366670694,
+            "duration" : 2736
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e7f80f38ebc32d8ac59519d67b9c8f16"
+      } ],
+      "uid" : "247c93041831f002e1336b3376770261"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}
